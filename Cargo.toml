@@ -15,7 +15,7 @@ members = [
 version = "0.2.32"
 edition = "2021"
 rust-version = "1.95"
-license = "GPL-3.0-or-later"
+license = "MIT"
 repository = "https://github.com/patricksmill/UprisingHack"
 
 [workspace.dependencies]

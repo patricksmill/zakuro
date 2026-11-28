@@ -97,7 +97,6 @@ jobs:
           New-Item -ItemType Directory pack | Out-Null
           Copy-Item target/release/UprisingHack.exe, README.md pack/
           Copy-Item LICENSE pack/LICENSE.txt
-          Copy-Item LICENSE-MIT pack/LICENSE-MIT.txt
           Compress-Archive -Path pack/* -DestinationPath ${{ steps.name.outputs.base }}.zip
           $env:RUST_LOG = 'info'
           pack/UprisingHack.exe --test-pattern --headless 1 --mute
@@ -105,7 +104,7 @@ jobs:
         if: runner.os == 'Linux'
         run: |
           mkdir pack
-          cp target/release/UprisingHack README.md LICENSE LICENSE-MIT pack/
+          cp target/release/UprisingHack README.md LICENSE pack/
           tar czf ${{ steps.name.outputs.base }}.tar.gz -C pack .
           RUST_LOG=info pack/UprisingHack --test-pattern --headless 1 --mute
       - uses: actions/upload-artifact@v7

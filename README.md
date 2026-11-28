@@ -85,7 +85,7 @@ Port-specific code lives in `kiu/` and `crates/zakuro-core/src/aim_mouse/`. See 
 
 ## License
 
-[GPL-3.0-or-later](LICENSE). Zakuro and 3dsrecomp code by fearkov remains under the [MIT license](LICENSE-MIT).
+[MIT](LICENSE). Built on [Zakuro](https://github.com/fearkov/zakuro) by fearkov, also MIT.
 
 <div align="center">
 <sub>Not affiliated with or endorsed by Nintendo, Project Sora or Sora Ltd. Kid Icarus is a trademark of Nintendo.</sub>

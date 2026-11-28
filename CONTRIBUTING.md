@@ -45,4 +45,4 @@ Keep each pull request to one change, and open it against `patricksmill/Uprising
 
 ## License
 
-Contributions are licensed under [GPL-3.0-or-later](LICENSE), like the rest of the port.
+Contributions are licensed under the [MIT license](LICENSE), like the rest of the port.
